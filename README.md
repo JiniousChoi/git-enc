@@ -2,8 +2,8 @@
 
 
 ### Synopsis
-``` git-enc.py encrypt [-k password] path1 [path2 ...] ```
-``` git-enc.py decrypt [-k password] path1 [path2 ...] ```
+``` git-enc encrypt [-k password] path1 [path2 ...] ```
+``` git-enc decrypt [-k password] path1 [path2 ...] ```
 
 
 ### Abstract
@@ -37,8 +37,8 @@ It's at your own risk not to push confidential files onto remote public reposito
 
 ### Run git-enc
 ```bash
-$ git-enc.py encrypt -k passw@rd cert.server1 db
-$ git-enc.py decrypt -k passw@rd cert.server1 db
+$ git-enc encrypt -k passw@rd cert.server1 db
+$ git-enc decrypt -k passw@rd cert.server1 db
 ```
 
 ### Example
@@ -58,11 +58,11 @@ group:
 ```
 
 ```bash
-$ git-enc.py encrypt -k passw@rd group
+$ git-enc encrypt -k passw@rd group
 ```
 
 ```bash
-$ git-enc.py decrypt group
+$ git-enc decrypt group
 ```
 
 ```bash
